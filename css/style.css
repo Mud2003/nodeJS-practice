@@ -1,0 +1,8 @@
+input{
+    border-radius: 5px;
+}
+button{
+    border-radius: 5px;
+    color: aliceblue;
+    background-color: black;
+}
