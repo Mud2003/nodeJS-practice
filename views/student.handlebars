@@ -1,0 +1,24 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		
+	</head>
+	<body>
+		<center>
+			<h1>Student Details</h1>
+			<table class="table">
+				<tr>
+					<th>Index No</th>
+					<th>FName</th>
+					<th>LName</th>
+					<th>Tel</th>
+				</tr>
+				<tbody>
+					{{#each result}}
+					<tr><td>{{this.indexNo}}</td><td>{{this.Fname}}</td><td>{{this.Lname}}</td><td>{{this.Tel}}</td><td><button class="btn-danger btn">Delete</button></td></tr>
+					{{/each}}
+				</tbody>
+			</table>
+		</center>
+	</body>
+</html>
