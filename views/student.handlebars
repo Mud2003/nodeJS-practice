@@ -22,3 +22,17 @@
 		</center>
 	</body>
 </html>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+	$('.btn').click(function(){
+		var ino=$(this).parent().parent().children().first().html();
+		window.location.href="/deleteuser/"+ino;
+//		$.ajax({
+//			type:'post',
+//			url:'/deleteuser',
+//			data:{indexNo:ino},
+//			success:function(data){
+//			}
+//		});
+//	});
+</script>
